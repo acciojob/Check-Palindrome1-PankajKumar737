@@ -2,7 +2,7 @@
 
 function palindrome(str){
 String newStr = str.split("").reverse().join("");
-	if(str === newStr){
+	if(str == newStr){
 		return true;
 	}
 	return false;
