@@ -3,8 +3,9 @@
 function palindrome(str){
 String newStr = str.split("").reverse().join("");
 	if(str === newStr){
-		return 1;
+		return true;
 	}
-	return 0;
+	return false;
 }
+//console.log(palindrome("racecar"));
 module.exports = palindrome
